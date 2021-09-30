@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SearchBar from "./components/SearchBar";
 import JSONDATA from "./JSONDATA.json";
 import FruitItem from "./components/FruitItem";
@@ -6,9 +6,6 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
-  // const [fruits, setFruits] = useState([]);
-  // const [selectFruits, setSelectFruits] = useState([]);
-
   const onSearchSubmit = (term) => {
     console.log(term);
     fetch("./JSONDATA.json").then(async (response) => {
@@ -24,7 +21,7 @@ function App() {
 
   const onItemSelect = (item) => {
     console.log("from App", item);
-    setSelectFruits({ selectFruits: item });
+    // setSelectFruits({ selectFruits: item });
   };
   return (
     <div className="container ui fluid container">
@@ -38,7 +35,7 @@ function App() {
       </div>
 
       <SearchBar onSubmit={onSearchSubmit} data={JSONDATA} />
-      <FruitItem fruitItem={fruits} onItemSelect={onItemSelect} />
+      <FruitItem onItemSelect={onItemSelect} />
       <footer className="footer">
         <Footer />
       </footer>
