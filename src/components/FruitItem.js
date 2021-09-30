@@ -5,8 +5,8 @@ function FruitItem({ fruitItem }) {
 
   return (
     <div>
-      <img alt={fruitItem.fruit} src={fruitItem.image} />
-      <div>{fruitItem.fruit}</div>
+      {/* <img alt={fruitItem.fruit} src={fruitItem.image} />
+      <div>{fruitItem.fruit}</div> */}
     </div>
   );
 }
