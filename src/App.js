@@ -6,8 +6,8 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
-  const [fruits, setFruits] = useState([]);
-  const [selectFruits, setSelectFruits] = useState([]);
+  // const [fruits, setFruits] = useState([]);
+  // const [selectFruits, setSelectFruits] = useState([]);
 
   const onSearchSubmit = (term) => {
     console.log(term);
