@@ -72,7 +72,12 @@ function SearchBar({ data, onSubmit }) {
             {filteredData.slice(0, 10).map((value, id) => {
               return (
                 <div key={id}>
-                  <a className="data-item" href={value.image} target="_blank">
+                  <a
+                    className="data-item"
+                    href={value.image}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <p className="fruit-value">{value.fruit}</p>
                     <img src={value.image} alt={""} />
                   </a>

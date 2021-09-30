@@ -7,7 +7,6 @@
 
 .search input {
   border: 0;
-  /* font-size: 18px; */
   padding: 15px;
   height: 40px;
   width: 310px;
@@ -19,7 +18,7 @@
   width: 40px;
   border: 1px solid rgb(182, 179, 179);
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-content: stretch;
   padding-top: 5px;
   place-items: center;
