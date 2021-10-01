@@ -29,7 +29,7 @@ Netlify
 [![Netlify](https://github.com/afleissner2019/fuzzy-match/blob/dc58d0ef0d84cb562ec6f6f9990c8e1ae6dea30e/n2.png)](https://www.netlify.com/)
 
 ## Set up:
-- Copy and paste this to your editor' terminal eg. Visual Studio Code.
+- Copy and paste this to your editor's terminal eg. Visual Studio Code.
 
     git clone [github.com/afleissner2019/fuzzy-match.git](github.com/afleissner2019/fuzzy-match.git)
 
