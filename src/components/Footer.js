@@ -10,20 +10,20 @@ function Footer(props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa fa-facebook fa-1x" target="_blank"></i>
+        <i class="fa fa-facebook fa-2x" target="_blank"></i>
       </a>
       <a
         href="https://www.linkedin.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa fa-linkedin fa-1x"></i>
+        <i class="fa fa-linkedin fa-2x"></i>
       </a>
       <a href="https://www.instagram.com/">
-        <i class="fa fa-instagram fa-1x"></i>
+        <i class="fa fa-instagram fa-2x"></i>
       </a>
       <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-twitter fa-1x"></i>
+        <i class="fa fa-twitter fa-2x"></i>
       </a>
     </div>
   );

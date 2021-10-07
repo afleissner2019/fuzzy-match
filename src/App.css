@@ -24,6 +24,7 @@ span {
 .container {
   margin: 0 20px;
   min-height: 100vh;
+  position: relative;
 }
 
 .header {
@@ -61,4 +62,12 @@ span {
   .header span {
     font-size: 30px;
   }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: #263238;
 }
