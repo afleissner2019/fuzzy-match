@@ -1,19 +1,22 @@
 .icons {
   display: flex;
-  justify-items: space-between;
+  justify-content: center;
   align-items: baseline;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100vw;
 }
 
 .icons a {
   text-decoration: none;
-  font-size: 2rem;
+  background: none;
+  font-size: 8px;
   margin: 0.5rem;
 }
 
 .company-name {
-  font-size: 1.6rem;
-  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  text-align: end;
   margin-right: 1.3rem;
 }
 
@@ -21,16 +24,4 @@
   html {
     font-size: 50%;
   }
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  background: #263238;
-  color: #f4f4f4;
-  display: flex;
-  align-content: center;
-  justify-content: space-evenly;
 }
