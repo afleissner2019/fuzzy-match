@@ -4,7 +4,7 @@
 It is an autocomplete search, wherein when you type every letter in the search input there is a suggestion or match word, to easily and quickly search the item.
 
 ## Features:
-- Every letter you type in, it gives a list of suggested words and you can scroll down or up the list of suggested words.
+- Every letter you type in, it gives a list of suggested words and you can scroll down or up.
 - Once you type in a letter in the input search, the **Close** or **X** icon on the right side appears automatically, so that you can erase the whole letters.
 - After you type the first letter or second letter the suggested list will appear. To close the suggested list you can click anywhere outside of the list.
 - For social media you can click the footer at the bottom of the page and you will be routed to the dedicated website.
